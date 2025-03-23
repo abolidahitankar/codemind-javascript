@@ -1,0 +1,15 @@
+// Type: Function with no argument or parameter and no return value
+function test(){
+    console.log("Test");  
+}
+
+test(); // Invocation or function call
+
+// Type 2: Function with argument or parameter and no return value
+function square(num){
+    console.log(`Finding the square: ${num}`);
+    var result = num * num;
+    console.log(`Square is: ${result}`);   
+}
+square(8);
+square(19);

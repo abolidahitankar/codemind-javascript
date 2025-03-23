@@ -1,0 +1,4 @@
+console.log(`====== Delete the node =========`);
+const liDanceElement = document.querySelector("#dance");
+const hobbiesElement = document.querySelector("#hobbies");
+hobbiesElement.removeChild(liDanceElement);

@@ -1,0 +1,7 @@
+array.filter ( (element)=> {
+    return element %5==0 ;
+     console.log(element);
+     
+}
+
+)
